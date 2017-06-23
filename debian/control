@@ -11,11 +11,11 @@ Homepage: <insert the upstream URL, if relevant>
 Package: libmpsse-dev
 Section: libdevel
 Architecture: any
-Depends: libmpsseBROKEN (= ${binary:Version}), ${misc:Depends}
+Depends: libmpsse1 (= ${binary:Version}), ${misc:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
-Package: libmpsseBROKEN
+Package: libmpsse1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: <insert up to 60 chars description>
