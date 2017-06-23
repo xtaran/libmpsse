@@ -1,7 +1,7 @@
 Source: libmpsse
 Priority: optional
 Maintainer: Axel Beckert <abe@debian.org>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 10)
 Standards-Version: 3.9.8
 Section: libs
 Homepage: <insert the upstream URL, if relevant>
