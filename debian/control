@@ -1,7 +1,10 @@
 Source: libmpsse
 Priority: optional
 Maintainer: Axel Beckert <abe@debian.org>
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper (>= 10),
+               libftdi-dev,
+               python-dev,
+               swig
 Standards-Version: 4.0.0
 Section: libs
 Homepage: https://github.com/devttys0/libmpsse
