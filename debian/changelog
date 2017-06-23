@@ -1,0 +1,5 @@
+libmpsse (0~git2016.06.02+12+a2eafa24-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Axel Beckert <abe@debian.org>  Fri, 23 Jun 2017 19:59:41 +0200
