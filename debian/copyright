@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Libmpsse
 Source: https://github.com/devttys0/libmpsse
+Files-Excluded: doc/AN_135_MPSSE_Basics.pdf
 
 Files: *
 Copyright: Copyright (c) 2015, Craig Heffner <heffnercj@gmail.com>
