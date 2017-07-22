@@ -4,5 +4,16 @@
 # see FEATURE AREAS in dpkg-buildflags(1)
 #export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
+# Set SONAME
+SONAME=1
+export DEB_LDFLAGS_MAINT_APPEND=-Wl,-soname,libmpsse.so.$(SONAME)
+
 %:
 	dh $@ -Dsrc --no-parallel
+
+override_dh_install:
+	dh_install
+	cd debian/libmpsse1/usr/lib/*/ && \
+	  mv -v libmpsse.so libmpsse.so.$(SONAME)
+	cd debian/libmpsse-dev/usr/lib/*/ && \
+	  ln -vs libmpsse.so.$(SONAME) libmpsse.so
