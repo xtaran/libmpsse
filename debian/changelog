@@ -1,5 +1,5 @@
 libmpsse (1.3+git-2-a2eafa2-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #869389)
 
  -- Axel Beckert <abe@debian.org>  Fri, 23 Jun 2017 19:59:41 +0200
