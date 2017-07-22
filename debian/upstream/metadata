@@ -1,0 +1,10 @@
+%YAML 1.1
+---
+# https://wiki.debian.org/UpstreamMetadata
+Bug-Database: https://github.com/devttys0/libmpsse/issues
+Changelog: https://github.com/devttys0/libmpsse/commits/master
+Contact: Craig Heffner <heffnercj@gmail.com>
+Name: libmpsse
+Homepage: https://github.com/devttys0/libmpsse
+Repository: https://github.com/devttys0/libmpsse.git
+Repository-Browse: https://github.com/devttys0/libmpsse
