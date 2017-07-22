@@ -4,7 +4,7 @@ Source: https://github.com/devttys0/libmpsse
 Files-Excluded: doc/AN_135_MPSSE_Basics.pdf
 
 Files: *
-Copyright: Copyright (c) 2015, Craig Heffner <heffnercj@gmail.com>
+Copyright: 2015 Craig Heffner <heffnercj@gmail.com>
 License: BSD-2-Clause
 
 Files: debian/*
