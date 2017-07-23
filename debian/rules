@@ -11,6 +11,9 @@ export DEB_LDFLAGS_MAINT_APPEND=-Wl,-soname,libmpsse.so.$(SONAME)
 %:
 	dh $@ -Dsrc --no-parallel
 
+override_dh_auto_configure:
+	dh_auto_configure -- PYLIB=/usr/lib/python2.7/dist-packages
+
 override_dh_install:
 	dh_install
 	cd debian/libmpsse1/usr/lib/*/ && \
